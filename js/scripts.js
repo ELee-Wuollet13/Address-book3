@@ -8,6 +8,10 @@ $(document).ready(function() {
     console.log(name);
     console.log(address)
     console.log(phone)
+    var result = (<div class="contact"><br>name<br></div>);
     console.log(email)
+
+    $("#output").text(result);
   });
+
 });
